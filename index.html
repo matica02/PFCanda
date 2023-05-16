@@ -9,8 +9,7 @@
     <link rel="shortcut icon" href="./img/home.ico" type="image/x-icon">
 
     <!-- revisar los H de bootstrap -->
-    <!-- photopea.com y css.glass(agregar clase) para carousel -->
-
+    <!-- RESOLVER GITHUB -->
   </head>
   <body>
 
@@ -49,12 +48,51 @@
     </header>
 
     <main>
-      <!-- CAROUSEL -->
+      <!-- ACHICAR CAJA TRANSPARENTE -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="./index.html"><img src="./img/audi-vs-bmw.png" class="d-block w-100" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block carousel-item-background">
+              <h3>Audi RS3 & BMW M3</h3>
+              <p>These are commonly compared by fans.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="./pages/audi.html"><img src="./img/audir8.png" class="d-block w-100" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block carousel-item-background">
+              <h3>Audi R8</h3>
+              <p>This is audi's most expensive car.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="./pages/bmw.html"><img src="./img/bmwm8.png" class="d-block w-100" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block carousel-item-background">
+              <h3>BMW M8 Competition</h3>
+              <p>This is BMW's most expensive car.</p>
+            </div>
+          </div>
+        </div>
+        <!-- CAMBIAR BOTONES POR MAS VISIBLES -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </main>
 
     <footer>
       <a href=""><img class="logoposition-wpp" src="./img/wpp-logo.png" alt=""></a> <!-- link wpp -->
-      <h3>About us</h3>
+      <h4>About us</h4>
       <p>This is a page where we show you the different models of these two german car brands.</p>
       <p>Creator: Matias Canda.</p>
     </footer>
