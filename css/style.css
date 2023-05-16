@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: #889aff;
-    background-image: linear-gradient(43deg, #889aff 0%, #ff787a 30%, #8d8d8d 66%, #ffffff 100%);
+    background-color: #7580ff;
+background-image: linear-gradient(90deg, #7580ff 0%, #ff9999 100%);
 }
 
 a {
@@ -22,8 +22,8 @@ h1 {
 
 .subtitle {
     font-family: 'Quicksand', sans-serif;
-    font-size: 2rem;
-    margin: 0px 20px 40px 50px;
+    font-size: 2.2rem;
+    margin: 0px 20px 30px 50px;
     color: darkslategray;
 }
 
@@ -63,7 +63,7 @@ h1 {
 
 .navbar-nav {
     margin-right: 30px;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 footer {
@@ -79,7 +79,7 @@ footer h4 {
 }
 
 footer p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .logoposition-wpp {
@@ -105,6 +105,7 @@ footer p {
 
 .card-text {
     font-family: "Oswald" , sans-serif;
+    font-size: 1.5rem;
 }
 
 .card {
@@ -204,3 +205,66 @@ footer p {
     font-family: "QuickSand";
     margin-top: 20px;
   }
+
+.rateus-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ratings {
+    font-family: 'Oswald' , sans-serif;
+    margin-left: 55px;
+}
+
+.dropdown {
+    margin-bottom: 20px;
+}
+
+.dropdown-bg {
+    background-color: #ff787a;
+    font-size: 1.5rem;
+}
+
+.dropdown-menu {
+    background-color: #ff787a;
+}
+
+.dropdown-item {
+    font-size: 1rem;
+    font-family: 'Oswald' , sans-serif;
+}
+
+.form-floating {
+    margin-left: 60px;
+    font-family: 'oswald' , sans-serif;
+}
+
+textarea {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.form-floating {
+    margin-right: 20px;
+}
+
+.yes-no {
+    margin-top: 20px;
+}
+
+.contacto-lista {
+    font-family: 'Quicksand' , sans-serif;
+    margin: 40px 0px 50px 50px;
+}
+
+.contacto-lista p {
+    font-size: 1.5rem;
+}
+
+.iphone-position {
+    position: absolute;
+    width: 30rem;
+    top: 18rem;
+    right: 5rem;
+
+}
