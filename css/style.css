@@ -4,25 +4,24 @@
 }
 
 body {
-    background-color: #ffffff;
-    background-image: linear-gradient(0deg, #ffffff 0%, #949494 100%);
+    background-color: #889aff;
+    background-image: linear-gradient(43deg, #889aff 0%, #ff787a 30%, #8d8d8d 66%, #ffffff 100%);
 }
-
-/* font-family: 'Quicksand', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 a {
     color: black;
     text-decoration: none;
+    font-family: 'Quicksand' , sans-serif;
 }
 
 h1 {
-    font-family: "Quicksand" , sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin: 40px 20px 10px 40px;
     font-size: 6rem;
 }
+
 .subtitle {
-    font-family: "Quicksand" , sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 2rem;
     margin: 0px 20px 40px 50px;
     color: darkslategray;
@@ -96,5 +95,112 @@ footer p {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3.8px);
     -webkit-backdrop-filter: blur(3.8px);
-    font-family: "Quicksand" , sans-serif;
+    font-family: 'Quicksand' , sans-serif;
 }
+
+.cards-yt {
+    display: flex;
+    margin: 80px 20px 100px 20px;
+}
+
+.card-text {
+    font-family: "Oswald" , sans-serif;
+}
+
+.card {
+    background-color: darkgray;
+}
+
+/* AUDI GRID */
+.foto-grid-audi {  
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "rs3 rs4 rs5"
+      "q2 q3 q5"
+      "tt r8 etron";
+      justify-content: center;
+      margin-bottom: 40px;
+      margin-top: 100px;
+  }
+  
+  .rs3 { grid-area: rs3; }
+  
+  .rs4 { grid-area: rs4; }
+  
+  .rs5 { grid-area: rs5; }
+  
+  .q2 { grid-area: q2; }
+  
+  .q3 { grid-area: q3; }
+  
+  .q5 { grid-area: q5; }
+  
+  .tt { grid-area: tt; }
+  
+  .r8 { grid-area: r8; }
+  
+  .etron { grid-area: etron; }
+
+  .foto-grid-audi img {
+    width: 450px;
+  }
+
+  .foto-grid-audi h3 {
+    text-align: center;
+    font-family: "QuickSand";
+    margin-top: 20px;
+  }
+
+/* BMW GRID */
+.foto-grid-bmw {  
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "m2 m3 m4 m5"
+      "m140i m240i m440i m850i"
+      "x2 x3 x5 x6";
+      justify-content: center;
+      margin-bottom: 40px;
+      margin-top: 100px;
+  }
+
+  .m2 { grid-area: m2; }
+  
+  .m3 { grid-area: m3; }
+  
+  .m4 { grid-area: m4; }
+  
+  .m5 { grid-area: m5; }
+  
+  .m140i { grid-area: m140i; }
+  
+  .m240i { grid-area: m240i; }
+  
+  .m440i { grid-area: m440i; }
+  
+  .m850i { grid-area: m850i; }
+  
+  .x2 { grid-area: x2; }
+  
+  .x3 { grid-area: x3; }
+  
+  .x5 { grid-area: x5; }
+  
+  .x6 { grid-area: x6; }
+
+  .foto-grid-bmw img {
+    width: 330px;
+  }
+
+.foto-grid-bmw h3 {
+    text-align: center;
+    font-family: "QuickSand";
+    margin-top: 20px;
+  }
