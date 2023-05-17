@@ -16,7 +16,7 @@ a {
 
 h1 {
     font-family: 'Quicksand', sans-serif;
-    margin: 40px 20px 10px 40px;
+    margin: 40px 20px 10px 45px;
     font-size: 6rem;
 }
 
@@ -31,7 +31,7 @@ footer {
     font-family: "Quicksand" , sans-serif;    
     padding-bottom: 20px;
     padding-top: 35px;
-    padding-left: 40px;
+    padding-left: 55px;
     margin-right: 55px;
 }
 
@@ -53,7 +53,7 @@ footer p {
 
 /* MEDIA-QUERY */
 @media screen {
-    /* TITLE - SUBTITLE - FOOTER - AUDI&BMW GRIDS - IPHONE */
+    /* TITLE - SUBTITLE - FOOTER - AUDI&BMW GRIDS - IPHONE - WPP */
 }
 
 /* ICO NAVBAR */
@@ -131,6 +131,10 @@ footer p {
     background-color: transparent;
     border: 0;
     width: 312px;
+}
+
+.bmwaudi-card-mg {
+    margin-top: 100px;
 }
 
 /* AUDI GRID */
