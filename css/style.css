@@ -32,6 +32,7 @@ footer {
     padding-bottom: 20px;
     padding-top: 35px;
     padding-left: 40px;
+    margin-right: 55px;
 }
 
 footer h4 {
@@ -48,6 +49,11 @@ footer p {
     position: fixed;
     top: 830px;
     right: 50px;
+}
+
+/* MEDIA-QUERY */
+@media screen {
+    
 }
 
 /* ICO NAVBAR */
@@ -250,10 +256,14 @@ textarea {
 }
 
 .form-floating {
-    margin-right: 20px;
+    margin-right: 55px;
 }
 
-.yes-no {
+.checkbox-email {
+    margin: 20px 20px 0px 0px;
+}
+
+.send-reset {
     margin-top: 20px;
 }
 
