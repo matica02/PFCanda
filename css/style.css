@@ -53,7 +53,7 @@ footer p {
 
 /* MEDIA-QUERY */
 @media screen {
-    
+    /* TITLE - SUBTITLE - FOOTER - AUDI&BMW GRIDS - IPHONE */
 }
 
 /* ICO NAVBAR */
@@ -87,6 +87,11 @@ footer p {
     margin-top: 20px;
 }
 
+.vw-ico {
+    width: 4.5rem;
+    margin-left: 30px;
+    margin-top: 20px; 
+}
 /* NAVBAR */
 .nav-position {
     justify-content: end;
@@ -107,19 +112,25 @@ footer p {
     font-family: 'Quicksand' , sans-serif;
 }
 
+.carousel-mg {
+    margin-bottom: 60px;
+}
+
 /* CARDS */
 .cards-yt {
-    display: flex;
-    margin: 80px 20px 100px 20px;
+    margin: 100px 50px 100px 50px;
 }
 
 .card-text {
     font-family: "Oswald" , sans-serif;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .card {
-    background-color: darkgray;
+    background-color: transparent;
+    border: 0;
+    width: 312px;
 }
 
 /* AUDI GRID */
@@ -162,7 +173,7 @@ footer p {
 
   .foto-grid-audi h3 {
     text-align: center;
-    font-family: "QuickSand";
+    font-family: "oswald" , sans-serif;
     margin-top: 20px;
   }
 
@@ -212,7 +223,7 @@ footer p {
 
 .foto-grid-bmw h3 {
     text-align: center;
-    font-family: "QuickSand";
+    font-family: "oswald" , sans-serif;
     margin-top: 20px;
   }
 
@@ -282,5 +293,11 @@ textarea {
     width: 30rem;
     top: 18rem;
     right: 5rem;
+}
 
+.insta-position {
+    position: absolute;
+    width: 30rem;
+    top: 18rem;
+    right: 5rem;
 }
