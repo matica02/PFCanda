@@ -144,6 +144,12 @@ footer p {
     width: 80%;
 }
 
+@media only screen and (max-width: 600px){
+    .img-audibmw {
+        width: 75%;
+    }
+}
+
 
 /* COMMING SOON CARDS */
 .cards-fotos {
