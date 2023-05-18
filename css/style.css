@@ -51,8 +51,8 @@ footer p {
 .logoposition-wpp {
     width: 70px;
     position: fixed;
-    top: 830px;
-    right: 50px;
+    top: 850px;
+    right: 30px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -64,10 +64,10 @@ footer p {
 
 @media only screen and (max-width: 600px) {
     .index-title {
-        font-size: 4rem;
+        font-size: 4.5rem;
     }
     .index-subtitle {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         margin-right: 50px;
     }
     footer h4 {
@@ -77,9 +77,6 @@ footer p {
         font-size: 1.5rem;
     }
 }
-
-/* MEDIA-QUERY (FOOTER - IPHONE - WPP) */
-
 
 /* ICO NAVBAR */
 .bmw-audi-ico {
@@ -140,11 +137,17 @@ footer p {
 
 .carousel-mg {
     margin-bottom: 60px;
+    margin-top: 100px;
 }
 
-/* CARDS */
+.img-audibmw {
+    width: 80%;
+}
+
+
+/* COMMING SOON CARDS */
 .cards-fotos {
-    margin: 100px 50px 100px 50px;
+    margin: 100px 50px 5px 50px;
 }
 
 .card-text {
@@ -369,27 +372,4 @@ textarea {
 
 .send-reset {
     margin-top: 20px;
-}
-
-/* CONTACT */
-.contacto-lista {
-    font-family: 'Quicksand' , sans-serif;
-    margin: 40px 0px 50px 50px;
-}
-
-.contacto-lista p {
-    font-size: 1.5rem;
-}
-
-.iphone-position {
-    position: absolute;
-    width: 30rem;
-    top: 18rem;
-    right: 5rem;
-}
-
-@media only screen and (max-width: 1000px) {
-    .iphone-position {
-        display: none;
-    }
 }
