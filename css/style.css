@@ -5,7 +5,7 @@
 
 body {
     background-color: #7580ff;
-background-image: linear-gradient(90deg, #7580ff 0%, #ff9999 100%);
+    background-image: linear-gradient(90deg, #7580ff 0%, #ff9999 100%);
 }
 
 a {
@@ -48,11 +48,11 @@ footer h4 {
 }
 
 footer p {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .rateus-footer {
-    margin-top: 100px;
+    margin-top: 250px;
 }
 
 .logoposition-wpp {
@@ -103,12 +103,6 @@ footer p {
     margin-top: 20px;
 }
 
-.contact-ico {
-    width: 4.5rem;
-    margin-left: 30px;
-    margin-top: 20px;
-}
-
 .rateus-ico {
     width: 4.5rem;
     margin-left: 30px;
@@ -127,8 +121,14 @@ footer p {
 }
 
 .navbar-nav {
-    margin-right: 30px;
+    margin-right: 40px;
     font-size: 2rem;
+}
+
+@media screen and (max-width: 991px) {
+    .nav-item {
+        margin-left: 40px;
+    }
 }
 
 /* CAROUSEL */
@@ -157,9 +157,9 @@ footer p {
 }
 
 
-/* COMMING SOON CARDS */
+/* CARDS */
 .cards-fotos {
-    margin: 70px 50px 5px 50px;
+    margin: 70px 50px 15px 50px;
 }
 
 .card-text {
@@ -168,15 +168,25 @@ footer p {
     text-align: center;
 }
 
-.card {
+.cards-vw {
     background-color: transparent;
     border: 0;
     width: 312px;
+    text-align: center;
+}
+
+.card-bmwaudi {
+    background-color: transparent;
+    border: 0;
+    width: 96%;
+    height: 815px;
+    text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
-    .card {
+    .card-bmwaudi {
         width: 380px;
+        height: 350px
     }
 }
 
@@ -192,8 +202,7 @@ footer p {
       "q2 q3 q5"
       "tt r8 etron";
       justify-content: center;
-      margin-bottom: 40px;
-      margin-top: 100px;
+      margin: 100px 50px 40px 50px;
   }
   
   .rs3 { grid-area: rs3; }
@@ -215,7 +224,7 @@ footer p {
   .etron { grid-area: etron; }
 
   .foto-grid-audi img {
-    width: 400px;
+    width: 455px;
   }
 
   .foto-grid-audi h3 {
