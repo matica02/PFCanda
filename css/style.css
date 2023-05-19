@@ -16,14 +16,21 @@ a {
 
 h1 {
     font-family: 'Quicksand', sans-serif;
-    margin: 40px 20px 10px 45px;
+    margin: 40px 50px 10px 45px;
     font-size: 6rem;
 }
 
 .subtitle {
     font-family: 'Quicksand', sans-serif;
     font-size: 2.2rem;
-    margin: 0px 20px 30px 50px;
+    margin: 20px 50px 30px 50px;
+    color: darkslategray;
+}
+
+.index-subtitle {
+    font-family: 'Quicksand' , sans-serif;
+    font-size: 2.2rem;
+    margin: 0px 50px 30px 50px;
     color: darkslategray;
 }
 
@@ -31,8 +38,8 @@ footer {
     font-family: "Quicksand" , sans-serif;    
     padding-bottom: 20px;
     padding-top: 35px;
-    padding-left: 55px;
-    margin-right: 55px;
+    padding-left: 50px;
+    margin-right: 50px;
 }
 
 footer h4 {
@@ -64,11 +71,10 @@ footer p {
 
 @media only screen and (max-width: 600px) {
     .index-title {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
     .index-subtitle {
-        font-size: 1.8rem;
-        margin-right: 50px;
+        font-size: 1.5rem;
     }
     footer h4 {
         font-size: 3rem;
@@ -153,7 +159,7 @@ footer p {
 
 /* COMMING SOON CARDS */
 .cards-fotos {
-    margin: 100px 50px 5px 50px;
+    margin: 70px 50px 5px 50px;
 }
 
 .card-text {
@@ -170,7 +176,7 @@ footer p {
 
 @media only screen and (max-width: 600px) {
     .card {
-        width: 400px;
+        width: 380px;
     }
 }
 
@@ -209,7 +215,7 @@ footer p {
   .etron { grid-area: etron; }
 
   .foto-grid-audi img {
-    width: 450px;
+    width: 400px;
   }
 
   .foto-grid-audi h3 {
@@ -240,7 +246,7 @@ footer p {
           margin-top: 100px;
     } 
     .foto-grid-audi img {
-        width: 470px;
+        width: 380px;
     }
     .foto-grid-audi h3 {
         margin-bottom: 20px;
@@ -322,7 +328,7 @@ footer p {
           margin-top: 100px;
     }
     .foto-grid-bmw img {
-        width: 470px;
+        width: 380px;
     }
     .foto-grid-bmw h3 {
         margin-bottom: 20px;
