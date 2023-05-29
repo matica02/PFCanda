@@ -1,3 +1,380 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 
+body {
+  background-color: #7580ff;
+  background-image: linear-gradient(90deg, #7580ff 0%, #ff9999 100%);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  font-family: "Quicksand", sans-serif;
+  margin: 40px 50px 10px 45px;
+  font-size: 6rem;
+}
+
+.subtitle {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2.2rem;
+  margin: 20px 50px 30px 50px;
+  color: darkslategray;
+}
+
+.index-subtitle {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2.2rem;
+  margin: 0px 50px 30px 50px;
+  color: darkslategray;
+}
+
+footer {
+  font-family: "Quicksand", sans-serif;
+  padding-bottom: 20px;
+  padding-top: 35px;
+  padding-left: 50px;
+  margin-right: 50px;
+}
+footer h4 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+footer p {
+  font-size: 1.8rem;
+}
+
+.logoposition-wpp {
+  width: 70px;
+  position: fixed;
+  top: 850px;
+  right: 30px;
+}
+
+.nav-position {
+  justify-content: end;
+}
+
+.navbar-nav {
+  margin-right: 40px;
+  font-size: 2rem;
+}
+
+.bmw-audi-ico {
+  width: 10rem;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.carousel-item-background {
+  background: rgba(6, 255, 255, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.8px);
+  -webkit-backdrop-filter: blur(3.8px);
+  font-family: "Quicksand", sans-serif;
+}
+
+.carousel-mg {
+  margin-bottom: 60px;
+  margin-top: 100px;
+}
+
+.img-audibmw {
+  width: 80%;
+}
+
+.cards-fotos {
+  margin: 70px 50px 15px 50px;
+}
+
+.card-text {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.cards-vw {
+  background-color: transparent;
+  border: 0;
+  width: 312px;
+  text-align: center;
+}
+
+.card-bmwaudi {
+  background-color: transparent;
+  border: 0;
+  width: 96%;
+  height: 815px;
+  text-align: center;
+}
+
+.sline-ico {
+  width: 12rem;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.foto-grid-audi {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  grid-template-areas: "rs3 rs4 rs5" "q2 q3 q5" "tt r8 etron";
+  justify-content: center;
+  margin: 100px 50px 40px 50px;
+}
+.foto-grid-audi img {
+  width: 455px;
+}
+.foto-grid-audi h3 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  margin-top: 20px;
+}
+
+.rs3 {
+  grid-area: rs3;
+}
+
+.rs4 {
+  grid-area: rs4;
+}
+
+.rs5 {
+  grid-area: rs5;
+}
+
+.q2 {
+  grid-area: q2;
+}
+
+.q3 {
+  grid-area: q3;
+}
+
+.q5 {
+  grid-area: q5;
+}
+
+.tt {
+  grid-area: tt;
+}
+
+.r8 {
+  grid-area: r8;
+}
+
+.etron {
+  grid-area: etron;
+}
+
+.m-ico {
+  width: 8rem;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.foto-grid-bmw {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  grid-template-areas: "m2 m3 m4 m5" "m140i m240i m440i m850i" "x2 x3 x5 x6";
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 100px;
+}
+.foto-grid-bmw img {
+  width: 330px;
+}
+.foto-grid-bmw h3 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  margin-top: 20px;
+}
+
+.m2 {
+  grid-area: m2;
+}
+
+.m3 {
+  grid-area: m3;
+}
+
+.m4 {
+  grid-area: m4;
+}
+
+.m5 {
+  grid-area: m5;
+}
+
+.m140i {
+  grid-area: m140i;
+}
+
+.m240i {
+  grid-area: m240i;
+}
+
+.m440i {
+  grid-area: m440i;
+}
+
+.m850i {
+  grid-area: m850i;
+}
+
+.x2 {
+  grid-area: x2;
+}
+
+.x3 {
+  grid-area: x3;
+}
+
+.x5 {
+  grid-area: x5;
+}
+
+.x6 {
+  grid-area: x6;
+}
+
+.rateus-footer {
+  margin-top: 250px;
+}
+
+.rateus-ico {
+  width: 4.5rem;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.rateus-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ratings {
+  font-family: "Oswald", sans-serif;
+  margin-left: 55px;
+}
+
+.dropdown {
+  margin-bottom: 20px;
+}
+
+.dropdown-bg {
+  background-color: #ff787a;
+  font-size: 1.5rem;
+}
+
+.dropdown-menu {
+  background-color: #ff787a;
+}
+
+.dropdown-item {
+  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+}
+
+.form-floating {
+  margin-left: 60px;
+  font-family: "Oswald", sans-serif;
+  margin-right: 55px;
+}
+
+textarea {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.checkbox-email {
+  margin: 20px 20px 0px 0px;
+}
+
+.send-reset {
+  margin-top: 20px;
+}
+
+.vw-ico {
+  width: 4.5rem;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logoposition-wpp {
+    width: 50px;
+    top: 870px;
+  }
+  .index-title {
+    font-size: 3.5rem;
+  }
+  .index-subtitle {
+    font-size: 1.5rem;
+  }
+  footer h4 {
+    font-size: 3rem;
+  }
+  footer p {
+    font-size: 1.5rem;
+  }
+  .img-audibmw {
+    width: 75%;
+  }
+  .card-bmwaudi {
+    width: 380px;
+    height: 350px;
+  }
+  .foto-grid-audi {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, 9);
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas: "rs3" "rs4" "rs5" "q2" "q3" "q5" "tt" "r8" "etron";
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 100px;
+  }
+  .foto-grid-audi img {
+    width: 380px;
+  }
+  .foto-grid-audi h3 {
+    margin-bottom: 20px;
+  }
+  .foto-grid-bmw {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, 12);
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas: "m2" "m3" "m4" "m5" "m140i" "m240i" "m440i" "m850i" "x2" "x3" "x5" "x6";
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 100px;
+  }
+  .foto-grid-bmw img {
+    width: 380px;
+  }
+  .foto-grid-bmw h3 {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .nav-item {
+    margin-left: 40px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

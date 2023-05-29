@@ -15,13 +15,13 @@ a {
 }
 
 h1 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand' , sans-serif;
     margin: 40px 50px 10px 45px;
     font-size: 6rem;
 }
 
 .subtitle {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand' , sans-serif;
     font-size: 2.2rem;
     margin: 20px 50px 30px 50px;
     color: darkslategray;
@@ -35,7 +35,7 @@ h1 {
 }
 
 footer {
-    font-family: "Quicksand" , sans-serif;    
+    font-family: 'Quicksand' , sans-serif;    
     padding-bottom: 20px;
     padding-top: 35px;
     padding-left: 50px;
@@ -163,7 +163,7 @@ footer p {
 }
 
 .card-text {
-    font-family: "Oswald" , sans-serif;
+    font-family: 'Oswald' , sans-serif;
     font-size: 1.5rem;
     text-align: center;
 }
@@ -229,7 +229,7 @@ footer p {
 
   .foto-grid-audi h3 {
     text-align: center;
-    font-family: "oswald" , sans-serif;
+    font-family: 'Oswald' , sans-serif;
     margin-top: 20px;
   }
 
@@ -308,7 +308,7 @@ footer p {
 
 .foto-grid-bmw h3 {
     text-align: center;
-    font-family: "oswald" , sans-serif;
+    font-family: 'Oswald' , sans-serif;
     margin-top: 20px;
   }
 
@@ -375,7 +375,7 @@ footer p {
 
 .form-floating {
     margin-left: 60px;
-    font-family: 'oswald' , sans-serif;
+    font-family: 'Oswald' , sans-serif;
 }
 
 textarea {
@@ -394,3 +394,16 @@ textarea {
 .send-reset {
     margin-top: 20px;
 }
+
+/* 
+
+
+
+
+
+
+
+
+ 
+
+*/

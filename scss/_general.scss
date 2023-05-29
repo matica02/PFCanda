@@ -1,0 +1,57 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: $background-color_1;
+	background-image: linear-gradient(90deg, #7580ff 0%, #ff9999 100%);
+}
+a {
+	color: $color_1;
+	text-decoration: none;
+	font-family: $font-family_1;
+}
+h1 {
+	font-family: $font-family_1;
+	margin: 40px 50px 10px 45px;
+	font-size: 6rem;
+}
+.subtitle {
+	font-family: $font-family_1;
+	font-size: 2.2rem;
+	margin: 20px 50px 30px 50px;
+	color: $color_2;
+}
+.index-subtitle {
+	font-family: $font-family_1;
+	font-size: 2.2rem;
+	margin: 0px 50px 30px 50px;
+	color: $color_2;
+}
+footer {
+	font-family: $font-family_1;
+	padding-bottom: 20px;
+	padding-top: 35px;
+	padding-left: 50px;
+	margin-right: 50px;
+	h4 {
+		font-size: 3.5rem;
+		margin-bottom: 20px;
+	}
+	p {
+		font-size: 1.8rem;
+	}
+}
+.logoposition-wpp {
+	width: 70px;
+	position: fixed;
+	top: 850px;
+	right: 30px;
+}
+.nav-position {
+	justify-content: end;
+}
+.navbar-nav {
+	margin-right: 40px;
+	font-size: 2rem;
+}
