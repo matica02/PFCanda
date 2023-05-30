@@ -1,30 +1,36 @@
+/* corregir nombres */
+/* reorganizar (lineas) */
 * {
   padding: 0;
   margin: 0;
 }
 
-body {
-  background-color: #7580ff;
-  background-image: linear-gradient(90deg, #7580ff 0%, #ff9999 100%);
+main {
+  background-color: #2d2e2e;
+  padding: 100px 0px 100px 0px;
+  margin: 50px 50px;
 }
 
 a {
-  color: black;
+  color: #2d2e2e;
   text-decoration: none;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 h1 {
-  font-family: "Quicksand", sans-serif;
-  margin: 40px 50px 10px 45px;
-  font-size: 6rem;
+  font-family: "Oswald", sans-serif;
+  margin: 200px 200px 300px 200px;
+  font-size: 10rem;
+  text-align: center;
+  color: #2d2e2e;
 }
 
 .index-subtitle, .subtitle {
   font-family: "Quicksand", sans-serif;
-  font-size: 2.2rem;
-  margin: 0px 50px 30px 50px;
-  color: darkslategray;
+  font-size: 4rem;
+  margin: 0px 100px 100px 100px;
+  color: #a9aaab;
+  text-align: center;
 }
 
 .subtitle {
@@ -33,7 +39,7 @@ h1 {
 
 footer {
   font-family: "Quicksand", sans-serif;
-  padding: 35px 50px 20px 50px;
+  padding: 70px 50px 20px 50px;
 }
 footer h4 {
   font-size: 3.5rem;
@@ -56,11 +62,99 @@ footer p {
 
 .navbar-nav {
   margin-right: 40px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
+/* CARDS */
+.card-text {
+  color: #a9aaab;
+  font-size: 1.5rem;
+}
+
+.cards-fotos {
+  margin: 70px 50px 15px 50px;
+}
+
+.card-text {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+.card-bmwaudi {
+  background-color: transparent;
+  border: 0;
+  text-align: center;
+  height: 815px;
+  width: 96%;
+}
+
+/* WALLPAPER INTERACTIVO */
+body {
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow: auto;
+  background: linear-gradient(315deg, rgb(101, 0, 94) 3%, rgb(60, 132, 206) 38%, rgb(48, 238, 226) 68%, rgb(255, 25, 25) 98%);
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+.wave {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 1000% 1000% 0 0;
+  position: fixed;
+  width: 200%;
+  height: 12em;
+  animation: wave 10s -3s linear infinite;
+  transform: translate3d(0, 0, 0);
+  opacity: 0.8;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+  bottom: -1.25em;
+  animation: wave 18s linear reverse infinite;
+  opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+  bottom: -2.5em;
+  animation: wave 20s -1s reverse infinite;
+  opacity: 0.9;
+}
+
+@keyframes wave {
+  2% {
+    transform: translateX(1);
+  }
+  25% {
+    transform: translateX(-25%);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  75% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(1);
+  }
+}
 .bmw-audi-ico {
-  width: 10rem;
+  width: 7rem;
   margin-left: 30px;
   margin-top: 20px;
 }
@@ -83,26 +177,8 @@ footer p {
   width: 80%;
 }
 
-.cards-fotos {
-  margin: 70px 50px 15px 50px;
-}
-
-.card-text {
-  font-family: "Oswald", sans-serif;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.card-bmwaudi {
-  background-color: transparent;
-  border: 0;
-  text-align: center;
-  height: 815px;
-  width: 96%;
-}
-
 .sline-ico {
-  width: 12rem;
+  width: 9rem;
   margin-left: 5px;
   margin-top: 20px;
 }
@@ -118,12 +194,13 @@ footer p {
   margin: 100px 50px 40px 50px;
 }
 .foto-grid-audi img {
-  width: 455px;
+  width: 425px;
 }
 .foto-grid-audi h3 {
   text-align: center;
   font-family: "Oswald", sans-serif;
   margin-top: 20px;
+  color: #a9aaab;
 }
 
 .rs3 {
@@ -163,7 +240,7 @@ footer p {
 }
 
 .m-ico {
-  width: 8rem;
+  width: 5rem;
   margin-left: 30px;
   margin-top: 20px;
 }
@@ -180,12 +257,13 @@ footer p {
   margin-top: 100px;
 }
 .foto-grid-bmw img {
-  width: 330px;
+  width: 310px;
 }
 .foto-grid-bmw h3 {
   text-align: center;
   font-family: "Oswald", sans-serif;
   margin-top: 20px;
+  color: #a9aaab;
 }
 
 .m2 {
@@ -236,12 +314,16 @@ footer p {
   grid-area: x6;
 }
 
-.rateus-footer {
-  margin-top: 250px;
+/* revisar y reorganizar */
+.subtitle-rateus {
+  font-family: "Quicksand", sans-serif;
+  font-size: 4rem;
+  margin: 20px 20px 20px 60px;
+  color: #a9aaab;
 }
 
 .rateus-ico {
-  width: 4.5rem;
+  width: 3rem;
   margin-left: 30px;
   margin-top: 20px;
 }
@@ -253,7 +335,7 @@ footer p {
 
 .ratings {
   font-family: "Oswald", sans-serif;
-  margin-left: 55px;
+  margin-left: 60px;
 }
 
 .dropdown {
@@ -261,12 +343,12 @@ footer p {
 }
 
 .dropdown-bg {
-  background-color: #ff787a;
+  background-color: #a9aaab;
   font-size: 1.5rem;
 }
 
 .dropdown-menu {
-  background-color: #ff787a;
+  background-color: #a9aaab;
 }
 
 .dropdown-item {
@@ -277,7 +359,7 @@ footer p {
 .form-floating {
   margin-left: 60px;
   font-family: "Oswald", sans-serif;
-  margin-right: 55px;
+  margin-right: 60px;
 }
 
 textarea {
@@ -294,7 +376,7 @@ textarea {
 }
 
 .vw-ico {
-  width: 4.5rem;
+  width: 3rem;
   margin-left: 30px;
   margin-top: 20px;
 }
@@ -303,7 +385,7 @@ textarea {
   background-color: transparent;
   border: 0;
   text-align: center;
-  width: 312px;
+  width: 285px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -311,11 +393,20 @@ textarea {
     width: 50px;
     top: 870px;
   }
-  .index-title {
-    font-size: 3.5rem;
+  h1 {
+    font-size: 5rem;
+    margin: 100px 40px 100px 40px;
+  }
+  main {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .index-subtitle, .subtitle {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin: 20px 70px 20px 70px;
+  }
+  .subtitle-rateus {
+    font-size: 2.5rem;
   }
   footer h4 {
     font-size: 3rem;
@@ -367,7 +458,7 @@ textarea {
 }
 @media screen and (max-width: 991px) {
   .nav-item {
-    margin-left: 40px;
+    margin-left: 30px;
   }
 }
 

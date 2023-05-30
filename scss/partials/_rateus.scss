@@ -1,8 +1,13 @@
-.rateus-footer {
-	margin-top: 250px;
+/* revisar y reorganizar */
+
+.subtitle-rateus {
+	font-family: $font-family_1;
+	font-size: 4rem;
+	margin: 20px 20px 20px 60px;
+	color: $blanco;
 }
 .rateus-ico {
-	width: 4.5rem;
+	width: 3rem;
 	margin-left: 30px;
 	margin-top: 20px;
 }
@@ -12,17 +17,17 @@
 }
 .ratings {
 	font-family: $font-family_2;
-	margin-left: 55px;
+	margin-left: 60px;
 }
 .dropdown {
 	margin-bottom: 20px;
 }
 .dropdown-bg {
-	background-color: $background-color_3;
+	background-color: $blanco;
 	font-size: 1.5rem;
 }
 .dropdown-menu {
-	background-color: $background-color_3;
+	background-color: $blanco;
 }
 .dropdown-item {
 	font-size: 1rem;
@@ -31,7 +36,7 @@
 .form-floating {
 	margin-left: 60px;
 	font-family: $font-family_2;
-	margin-right: 55px;
+	margin-right: 60px;
 }
 textarea {
 	font-size: 1.5rem;

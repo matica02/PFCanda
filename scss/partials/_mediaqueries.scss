@@ -3,11 +3,20 @@
 		width: 50px;
 		top: 870px;
 	}
-	.index-title {
-		font-size: 3.5rem;
+	h1 {
+		font-size: 5rem;
+		margin: 100px 40px 100px 40px;
 	}
-	.index-subtitle {
-		font-size: 1.5rem;
+	main {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.index-subtitle{
+		font-size: 2rem;
+		margin: 20px 70px 20px 70px;
+	}
+	.subtitle-rateus {
+		font-size: 2.5rem;
 	}
 	footer {
 		h4 {
@@ -60,6 +69,6 @@
 }
 @media screen and (max-width: 991px) {
 	.nav-item {
-		margin-left: 40px;
+		margin-left: 30px;
 	}
 }
