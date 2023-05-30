@@ -1,9 +1,9 @@
-@import './variables';
+@import './partials/variables';
 @import './partials/mixins';
-@import './general';
-@import './partials/index';
-@import './partials/audi';
-@import './partials/bmw';
-@import './partials/rateus';
-@import './partials/comingsoon';
+@import './partials/general';
+@import './pages/index';
+@import './pages/audi';
+@import './pages/bmw';
+@import './pages/rateus';
+@import './pages/comingsoon';
 @import './partials/mediaqueries';

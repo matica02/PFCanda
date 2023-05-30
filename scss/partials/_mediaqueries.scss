@@ -32,6 +32,9 @@
 	.card-bmwaudi {
 		@include sizes (300px , 260px);
 	}
+	.card-text {
+		font-size: 1rem;
+	}
 	.foto-grid-audi {
 		display: grid;
 		grid-template-columns: auto;
