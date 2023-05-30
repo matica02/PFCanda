@@ -418,8 +418,8 @@ textarea {
     width: 75%;
   }
   .card-bmwaudi {
-    height: 350px;
-    width: 380px;
+    height: 300px;
+    width: 260px;
   }
   .foto-grid-audi {
     display: grid;
@@ -433,7 +433,7 @@ textarea {
     margin-top: 100px;
   }
   .foto-grid-audi img {
-    width: 380px;
+    width: 260px;
   }
   .foto-grid-audi h3 {
     margin-bottom: 20px;
@@ -450,7 +450,7 @@ textarea {
     margin-top: 100px;
   }
   .foto-grid-bmw img {
-    width: 380px;
+    width: 260px;
   }
   .foto-grid-bmw h3 {
     margin-bottom: 20px;
