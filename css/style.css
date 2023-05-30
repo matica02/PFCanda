@@ -20,26 +20,20 @@ h1 {
   font-size: 6rem;
 }
 
-.subtitle {
-  font-family: "Quicksand", sans-serif;
-  font-size: 2.2rem;
-  margin: 20px 50px 30px 50px;
-  color: darkslategray;
-}
-
-.index-subtitle {
+.index-subtitle, .subtitle {
   font-family: "Quicksand", sans-serif;
   font-size: 2.2rem;
   margin: 0px 50px 30px 50px;
   color: darkslategray;
 }
 
+.subtitle {
+  margin-top: 20px;
+}
+
 footer {
   font-family: "Quicksand", sans-serif;
-  padding-bottom: 20px;
-  padding-top: 35px;
-  padding-left: 50px;
-  margin-right: 50px;
+  padding: 35px 50px 20px 50px;
 }
 footer h4 {
   font-size: 3.5rem;
@@ -99,19 +93,12 @@ footer p {
   text-align: center;
 }
 
-.cards-vw {
-  background-color: transparent;
-  border: 0;
-  width: 312px;
-  text-align: center;
-}
-
 .card-bmwaudi {
   background-color: transparent;
   border: 0;
-  width: 96%;
-  height: 815px;
   text-align: center;
+  height: 815px;
+  width: 96%;
 }
 
 .sline-ico {
@@ -312,6 +299,13 @@ textarea {
   margin-top: 20px;
 }
 
+.cards-vw {
+  background-color: transparent;
+  border: 0;
+  text-align: center;
+  width: 312px;
+}
+
 @media only screen and (max-width: 600px) {
   .logoposition-wpp {
     width: 50px;
@@ -320,7 +314,7 @@ textarea {
   .index-title {
     font-size: 3.5rem;
   }
-  .index-subtitle {
+  .index-subtitle, .subtitle {
     font-size: 1.5rem;
   }
   footer h4 {
@@ -333,8 +327,8 @@ textarea {
     width: 75%;
   }
   .card-bmwaudi {
-    width: 380px;
     height: 350px;
+    width: 380px;
   }
   .foto-grid-audi {
     display: grid;

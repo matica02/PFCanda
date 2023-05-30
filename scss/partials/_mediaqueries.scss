@@ -21,8 +21,7 @@
 		width: 75%;
 	}
 	.card-bmwaudi {
-		width: 380px;
-		height: 350px;
+		@include sizes (350px , 380px);
 	}
 	.foto-grid-audi {
 		display: grid;

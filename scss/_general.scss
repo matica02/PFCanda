@@ -16,24 +16,19 @@ h1 {
 	margin: 40px 50px 10px 45px;
 	font-size: 6rem;
 }
-.subtitle {
-	font-family: $font-family_1;
-	font-size: 2.2rem;
-	margin: 20px 50px 30px 50px;
-	color: $color_2;
-}
 .index-subtitle {
 	font-family: $font-family_1;
 	font-size: 2.2rem;
 	margin: 0px 50px 30px 50px;
 	color: $color_2;
 }
+.subtitle {
+	@extend .index-subtitle;
+	margin-top: 20px;
+}
 footer {
 	font-family: $font-family_1;
-	padding-bottom: 20px;
-	padding-top: 35px;
-	padding-left: 50px;
-	margin-right: 50px;
+	padding: 35px 50px 20px 50px;
 	h4 {
 		font-size: 3.5rem;
 		margin-bottom: 20px;

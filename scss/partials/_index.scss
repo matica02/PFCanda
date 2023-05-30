@@ -26,16 +26,9 @@
 	font-size: 1.5rem;
 	text-align: center;
 }
-.cards-vw {
-	background-color: $background-color_2;
-	border: 0;
-	width: 312px;
-	text-align: center;
-}
 .card-bmwaudi {
 	background-color: $background-color_2;
 	border: 0;
-	width: 96%;
-	height: 815px;
 	text-align: center;
+	@include sizes (815px , 96%);
 }
