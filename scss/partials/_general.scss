@@ -16,8 +16,8 @@ a {
 }
 h1 {
 	font-family: $font-family_2;
-	margin: 200px 200px 300px 200px;
-	font-size: 10rem;
+	margin: 200px 200px 380px 200px;
+	font-size: 15rem;
 	text-align: center;
     color: $gris-oscuro;
 }
@@ -36,27 +36,28 @@ footer {
 	font-family: $font-family_1;
 	padding: 70px 50px 20px 50px;
 	h4 {
-		font-size: 3.5rem;
+		font-size: 6rem;
 		margin-bottom: 20px;
 	}
 	p {
 		font-size: 1.8rem;
 	}
 }
-.logoposition-wpp {
-	width: 70px;
-	position: fixed;
-	top: 850px;
-	right: 30px;
+.ico {
+    width: 50px;
+    margin: 70px 0px 20px 20px;
 }
-.nav-position {
-	justify-content: end;
+.nav-item {
+	font-size: 5rem;
+    margin-left: 10px;
+    margin-top: 10px;
 }
-.navbar-nav {
-	margin-right: 40px;
-	font-size: 1.5rem;
+.navbar-toggler {
+    margin-right: 40px;
 }
-
+.offcanvas {
+    background-color: $blanco;
+}
 /* CARDS */
 .card-text {
     color: $blanco;
