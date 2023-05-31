@@ -1,14 +1,18 @@
 /* corregir nombres */
-/* reorganizar (lineas) */
 * {
   padding: 0;
   margin: 0;
 }
 
 main {
-  background-color: #2d2e2e;
   padding: 100px 0px 100px 0px;
   margin: 50px 50px;
+  background: rgba(142, 135, 135, 0.24);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.6px);
+  -webkit-backdrop-filter: blur(6.6px);
+  border: 1px solid rgba(142, 135, 135, 0.3);
 }
 
 a {
@@ -17,12 +21,23 @@ a {
   font-family: "Oswald", sans-serif;
 }
 
+/* h1 {
+	font-family: $font-family_2;
+	margin: 150px 0px 420px 0px;
+	font-size: 15rem;
+	text-align: center;
+    color: $gris-oscuro;
+} */
 h1 {
-  font-family: "Oswald", sans-serif;
-  margin: 200px 200px 380px 200px;
-  font-size: 15rem;
-  text-align: center;
-  color: #2d2e2e;
+  font-size: 12rem;
+  text-align: right;
+  margin: 130px 150px 0px 0px;
+}
+
+hr {
+  margin: 30px 150px 460px 100px;
+  height: 10px;
+  background-color: black;
 }
 
 .index-subtitle, .subtitle {
@@ -56,8 +71,7 @@ footer p {
 
 .nav-item {
   font-size: 5rem;
-  margin-left: 10px;
-  margin-top: 10px;
+  margin: 10px 0px 0px 10px;
 }
 
 .navbar-toggler {
@@ -89,6 +103,23 @@ footer p {
   text-align: center;
   height: 815px;
   width: 96%;
+}
+
+/* animar (sacar para el costado) */
+.m8-sinfondo {
+  z-index: -1;
+  position: fixed;
+  top: 530px;
+  right: 100px;
+  width: 650px;
+}
+
+.r8-sinfondo {
+  z-index: -1;
+  position: fixed;
+  top: 470px;
+  left: 40px;
+  width: 770px;
 }
 
 /* WALLPAPER INTERACTIVO */
@@ -158,13 +189,13 @@ body {
 }
 .bmw-audi-ico {
   width: 9rem;
-  margin-left: 40px;
-  margin-top: 15px;
+  margin: 15px 0px 0px 40px;
 }
 
 .carousel-mg {
   margin-bottom: 60px;
   margin-top: 100px;
+  margin: 100px 0px 60px 0px;
 }
 
 .img-audibmw {
@@ -172,13 +203,13 @@ body {
 }
 
 .index-footer {
-  background-color: #a9aaab;
+  background-color: #2d2e2e;
+  color: #a9aaab;
 }
 
 .sline-ico {
   width: 9rem;
-  margin-left: 25px;
-  margin-top: 20px;
+  margin: 20px 0px 0px 25px;
 }
 
 .foto-grid-audi {
@@ -239,8 +270,7 @@ body {
 
 .m-ico {
   width: 5rem;
-  margin-left: 40px;
-  margin-top: 20px;
+  margin: 20px 0px 0px 40px;
 }
 
 .foto-grid-bmw {
@@ -251,8 +281,7 @@ body {
   grid-auto-flow: row;
   grid-template-areas: "m2 m3 m4 m5" "m140i m240i m440i m850i" "x2 x3 x5 x6";
   justify-content: center;
-  margin-bottom: 40px;
-  margin-top: 100px;
+  margin: 100px 0px 40px 0px;
 }
 .foto-grid-bmw img {
   width: 310px;
@@ -312,7 +341,6 @@ body {
   grid-area: x6;
 }
 
-/* revisar y reorganizar */
 .subtitle-rateus {
   font-family: "Quicksand", sans-serif;
   font-size: 4rem;
@@ -322,8 +350,7 @@ body {
 
 .rateus-ico {
   width: 3rem;
-  margin-left: 40px;
-  margin-top: 25px;
+  margin: 25px 0px 0px 40px;
 }
 
 .rateus-container {
@@ -355,9 +382,8 @@ body {
 }
 
 .form-floating {
-  margin-left: 60px;
   font-family: "Oswald", sans-serif;
-  margin-right: 60px;
+  margin: 0px 60px 0px 60px;
 }
 
 textarea {
@@ -375,8 +401,7 @@ textarea {
 
 .vw-ico {
   width: 3rem;
-  margin-left: 40px;
-  margin-top: 20px;
+  margin: 20px 0px 0px 40px;
 }
 
 .cards-vw {
@@ -387,10 +412,6 @@ textarea {
 }
 
 @media only screen and (max-width: 600px) {
-  .logoposition-wpp {
-    width: 50px;
-    top: 870px;
-  }
   h1 {
     font-size: 5rem;
     margin: 100px 40px 100px 40px;
@@ -399,8 +420,7 @@ textarea {
     font-size: 3.5rem;
   }
   main {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0px 60px 0px;
   }
   .index-subtitle, .subtitle {
     font-size: 2rem;
@@ -418,6 +438,9 @@ textarea {
   .img-audibmw {
     width: 75%;
   }
+  .m8-sinfondo, .r8-sinfondo {
+    display: none;
+  }
   .card-bmwaudi {
     height: 300px;
     width: 260px;
@@ -433,8 +456,7 @@ textarea {
     grid-auto-flow: row;
     grid-template-areas: "rs3" "rs4" "rs5" "q2" "q3" "q5" "tt" "r8" "etron";
     justify-content: center;
-    margin-bottom: 40px;
-    margin-top: 100px;
+    margin: 100px 0px 40px 0px;
   }
   .foto-grid-audi img {
     width: 260px;
@@ -450,8 +472,7 @@ textarea {
     grid-auto-flow: row;
     grid-template-areas: "m2" "m3" "m4" "m5" "m140i" "m240i" "m440i" "m850i" "x2" "x3" "x5" "x6";
     justify-content: center;
-    margin-bottom: 40px;
-    margin-top: 100px;
+    margin: 100px 0px 40px 0px;
   }
   .foto-grid-bmw img {
     width: 260px;

@@ -1,25 +1,38 @@
-/* reorganizar (lineas) */
-
 * {
 	padding: 0;
 	margin: 0;
 }
 main {
-    background-color: $gris-oscuro;
     padding: 100px 0px 100px 0px;
     margin: 50px 50px;
+    background: rgba(142, 135, 135, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    border: 1px solid rgba(142, 135, 135, 0.3);
 }
 a {
 	color: $gris-oscuro;
 	text-decoration: none;
 	font-family: $font-family_2;
 }
-h1 {
+/* h1 {
 	font-family: $font-family_2;
-	margin: 200px 200px 380px 200px;
+	margin: 150px 0px 420px 0px;
 	font-size: 15rem;
 	text-align: center;
     color: $gris-oscuro;
+} */
+h1 {
+    font-size: 12rem;
+    text-align: right;
+    margin: 130px 150px 0px 0px;
+}
+hr {
+    margin: 30px 150px 460px 100px;
+    height: 10px; 
+    background-color: black;
 }
 .index-subtitle {
 	font-family: $font-family_1;
@@ -49,8 +62,7 @@ footer {
 }
 .nav-item {
 	font-size: 5rem;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin: 10px 0px 0px 10px;
 }
 .navbar-toggler {
     margin-right: 40px;
@@ -75,6 +87,21 @@ footer {
 	border: 0;
 	text-align: center;
 	@include sizes (815px , 96%);
+}
+/* animar (sacar para el costado) */
+.m8-sinfondo {
+	z-index: -1;
+	position: fixed;
+	top: 530px;
+	right: 100px;
+	width: 650px;
+}
+.r8-sinfondo {
+	z-index: -1;
+	position: fixed;
+	top: 470px;
+	left: 40px;
+	width: 770px;
 }
 
 /* WALLPAPER INTERACTIVO */

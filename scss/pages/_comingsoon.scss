@@ -1,7 +1,5 @@
 .vw-ico {
-	width: 3rem;
-	margin-left: 40px;
-	margin-top: 20px;
+	@include width-mg (3rem , 20px 0px 0px 40px)
 }
 .cards-vw {
 	background-color: $background-color_2;

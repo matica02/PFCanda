@@ -2,3 +2,7 @@
     height: $height;
     width: $width;
 }
+@mixin width-mg ($width , $margin) {
+    width: $width;
+    margin: $margin;
+}

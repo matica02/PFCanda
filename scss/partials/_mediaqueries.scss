@@ -1,8 +1,4 @@
 @media only screen and (max-width: 600px) {
-	.logoposition-wpp {
-		width: 50px;
-		top: 870px;
-	}
 	h1 {
 		font-size: 5rem;
 		margin: 100px 40px 100px 40px;
@@ -11,8 +7,7 @@
 		font-size: 3.5rem;
 	}
 	main {
-		padding-top: 60px;
-		padding-bottom: 60px;
+		padding: 60px 0px 60px 0px;
 	}
 	.index-subtitle{
 		font-size: 2rem;
@@ -32,6 +27,9 @@
 	.img-audibmw {
 		width: 75%;
 	}
+	.m8-sinfondo , .r8-sinfondo {
+		display: none;
+	}
 	.card-bmwaudi {
 		@include sizes (300px , 260px);
 	}
@@ -46,8 +44,7 @@
 		grid-auto-flow: row;
 		grid-template-areas: "rs3" "rs4" "rs5" "q2" "q3" "q5" "tt" "r8" "etron";
 		justify-content: center;
-		margin-bottom: 40px;
-		margin-top: 100px;
+		margin: 100px 0px 40px 0px;
 		img {
 			width: 260px;
 		}
@@ -63,8 +60,7 @@
 		grid-auto-flow: row;
 		grid-template-areas: "m2" "m3" "m4" "m5" "m140i" "m240i" "m440i" "m850i" "x2" "x3" "x5" "x6";
 		justify-content: center;
-		margin-bottom: 40px;
-		margin-top: 100px;
+		margin: 100px 0px 40px 0px;
 		img {
 			width: 260px;
 		}
