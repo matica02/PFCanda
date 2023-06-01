@@ -1,4 +1,38 @@
 /* corregir nombres */
+@keyframes desvanecimiento {
+  0% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0.75;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  35% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0.25;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  85% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes rotacion-360 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -13,6 +47,11 @@ main {
   backdrop-filter: blur(6.6px);
   -webkit-backdrop-filter: blur(6.6px);
   border: 1px solid rgba(142, 135, 135, 0.3);
+  transition: margin 2s;
+}
+
+main:hover {
+  margin: 0px 0px;
 }
 
 a {
@@ -21,13 +60,6 @@ a {
   font-family: "Oswald", sans-serif;
 }
 
-/* h1 {
-	font-family: $font-family_2;
-	margin: 150px 0px 420px 0px;
-	font-size: 15rem;
-	text-align: center;
-    color: $gris-oscuro;
-} */
 h1 {
   font-size: 14rem;
   text-align: right;
@@ -61,11 +93,20 @@ footer p {
 .ico {
   width: 50px;
   margin: 70px 0px 20px 20px;
+  animation-name: rotacion-360;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 .nav-item {
   font-size: 5rem;
   margin: 10px 0px 0px 10px;
+  transition: font-size 1s;
+}
+
+.nav-item:hover {
+  font-size: 5.5rem;
 }
 
 .navbar-toggler {
@@ -97,9 +138,13 @@ footer p {
   text-align: center;
   height: 815px;
   width: 96%;
+  transition: width 2s;
 }
 
-/* animar (sacar para el costado) */
+.card-bmwaudi:hover {
+  width: 100%;
+}
+
 .m8-sinfondo {
   z-index: -1;
   position: fixed;
@@ -184,6 +229,11 @@ body {
 .bmw-audi-ico {
   width: 9rem;
   margin: 15px 0px 0px 40px;
+  transition: width 1s;
+}
+
+.bmw-audi-ico:hover {
+  width: 10rem;
 }
 
 .carousel-mg {
@@ -204,6 +254,11 @@ body {
 .sline-ico {
   width: 9rem;
   margin: 20px 0px 0px 25px;
+  transition: width 1s;
+}
+
+.sline-ico:hover {
+  width: 10rem;
 }
 
 .foto-grid-audi {
@@ -218,6 +273,11 @@ body {
 }
 .foto-grid-audi img {
   width: 425px;
+}
+.foto-grid-audi img:hover {
+  animation-name: desvanecimiento;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
 }
 .foto-grid-audi h3 {
   text-align: center;
@@ -265,6 +325,11 @@ body {
 .m-ico {
   width: 5rem;
   margin: 20px 0px 0px 40px;
+  transition: width 1s;
+}
+
+.m-ico:hover {
+  width: 6rem;
 }
 
 .foto-grid-bmw {
@@ -279,6 +344,11 @@ body {
 }
 .foto-grid-bmw img {
   width: 310px;
+}
+.foto-grid-bmw img:hover {
+  animation-name: desvanecimiento;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
 }
 .foto-grid-bmw h3 {
   text-align: center;
@@ -345,6 +415,11 @@ body {
 .rateus-ico {
   width: 3rem;
   margin: 25px 0px 0px 40px;
+  transition: width 1s;
+}
+
+.rateus-ico:hover {
+  width: 4rem;
 }
 
 .rateus-container {
@@ -396,6 +471,11 @@ textarea {
 .vw-ico {
   width: 3rem;
   margin: 20px 0px 0px 40px;
+  transition: width 1s;
+}
+
+.vw-ico:hover {
+  width: 4rem;
 }
 
 .cards-vw {
@@ -403,6 +483,11 @@ textarea {
   border: 0;
   text-align: center;
   width: 285px;
+  transition: width 0, 75s;
+}
+
+.cards-vw:hover {
+  width: 292px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -419,7 +504,7 @@ textarea {
   }
   .index-subtitle, .subtitle {
     font-size: 2rem;
-    margin: 20px 50px 20px 50px;
+    margin: 20px;
   }
   .subtitle-rateus {
     font-size: 2.5rem;

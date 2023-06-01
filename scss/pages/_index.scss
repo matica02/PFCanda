@@ -1,5 +1,9 @@
 .bmw-audi-ico {
 	@include width-mg (9rem , 15px 0px 0px 40px);
+	transition: width 1s;
+}
+.bmw-audi-ico:hover {
+	width: 10rem;
 }
 .carousel-mg {
 	margin-bottom: 60px;

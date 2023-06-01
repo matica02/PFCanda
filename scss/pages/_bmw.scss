@@ -1,5 +1,9 @@
 .m-ico {
-	@include width-mg (5rem , 20px 0px 0px 40px)
+	@include width-mg (5rem , 20px 0px 0px 40px);
+	transition: width 1s;
+}
+.m-ico:hover {
+	width: 6rem;
 }
 .foto-grid-bmw {
 	display: grid;
@@ -12,6 +16,11 @@
 	margin: 100px 0px 40px 0px;
 	img {
 		width: 310px;
+	}
+	img:hover {
+		animation-name: desvanecimiento;
+		animation-timing-function: ease-in;
+		animation-duration: 1s;
 	}
 	h3 {
 		text-align: center;

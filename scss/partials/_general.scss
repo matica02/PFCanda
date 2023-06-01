@@ -11,19 +11,16 @@ main {
     backdrop-filter: blur(6.6px);
     -webkit-backdrop-filter: blur(6.6px);
     border: 1px solid rgba(142, 135, 135, 0.3);
+    transition: margin 2s;
+}
+main:hover {
+    margin: 0px 0px;
 }
 a {
 	color: $gris-oscuro;
 	text-decoration: none;
 	font-family: $font-family_2;
 }
-/* h1 {
-	font-family: $font-family_2;
-	margin: 150px 0px 420px 0px;
-	font-size: 15rem;
-	text-align: center;
-    color: $gris-oscuro;
-} */
 h1 {
     font-size: 14rem;
     text-align: right;
@@ -54,10 +51,18 @@ footer {
 .ico {
     width: 50px;
     margin: 70px 0px 20px 20px;
+    animation-name: rotacion-360;
+	animation-timing-function: ease-in;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .nav-item {
 	font-size: 5rem;
     margin: 10px 0px 0px 10px;
+    transition: font-size 1s;
+}
+.nav-item:hover {
+    font-size: 5.5rem;
 }
 .navbar-toggler {
     margin-right: 40px;
@@ -82,8 +87,11 @@ footer {
 	border: 0;
 	text-align: center;
 	@include sizes (815px , 96%);
+    transition: width 2s;
 }
-/* animar (sacar para el costado) */
+.card-bmwaudi:hover {
+    width: 100%;
+}
 .m8-sinfondo {
 	z-index: -1;
 	position: fixed;

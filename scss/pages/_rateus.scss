@@ -5,7 +5,11 @@
 	color: white;
 }
 .rateus-ico {
-	@include width-mg (3rem , 25px 0px 0px 40px)
+	@include width-mg (3rem , 25px 0px 0px 40px);
+	transition: width 1s;
+}
+.rateus-ico:hover {
+	width: 4rem;
 }
 .rateus-container {
 	display: flex;

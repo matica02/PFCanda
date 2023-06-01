@@ -1,9 +1,17 @@
 .vw-ico {
-	@include width-mg (3rem , 20px 0px 0px 40px)
+	@include width-mg (3rem , 20px 0px 0px 40px);
+	transition: width 1s;
+}
+.vw-ico:hover {
+	width: 4rem;
 }
 .cards-vw {
 	background-color: $background-color_2;
 	border: 0;
 	text-align: center;
 	width: 285px;
+	transition: width 0,75s;
+}
+.cards-vw:hover {
+	width: 292px;
 }

@@ -1,5 +1,9 @@
 .sline-ico {
-	@include width-mg (9rem , 20px 0px 0px 25px)
+	@include width-mg (9rem , 20px 0px 0px 25px);
+	transition: width 1s;
+}
+.sline-ico:hover {
+	width: 10rem;
 }
 .foto-grid-audi {
 	display: grid;
@@ -12,6 +16,11 @@
 	margin: 100px 50px 40px 50px;
 	img {
 		width: 425px;
+	}
+	img:hover {
+		animation-name: desvanecimiento;
+		animation-timing-function: ease-in;
+		animation-duration: 1s;
 	}
 	h3 {
 		text-align: center;
