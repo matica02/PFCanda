@@ -25,20 +25,15 @@ a {
     color: $gris-oscuro;
 } */
 h1 {
-    font-size: 12rem;
+    font-size: 14rem;
     text-align: right;
-    margin: 130px 150px 0px 0px;
-}
-hr {
-    margin: 30px 150px 460px 100px;
-    height: 10px; 
-    background-color: black;
+    margin: 130px 150px 460px 0px;
 }
 .index-subtitle {
 	font-family: $font-family_1;
 	font-size: 4rem;
 	margin: 0px 100px 100px 100px;
-	color: $blanco;
+	color: white;
 	text-align: center;
 }
 .subtitle {
@@ -72,7 +67,7 @@ footer {
 }
 /* CARDS */
 .card-text {
-    color: $blanco;
+    color: white;
     font-size: 1.5rem;
 }
 .cards-fotos {
