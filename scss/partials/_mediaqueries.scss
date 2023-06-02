@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px) {
 	h1 {
 		font-size: 5rem;
-		margin: 100px 40px 100px 50px;
+		margin: 100px 50px 100px 50px;
 		text-align: left;
 	}
 	.nav-item {
@@ -25,19 +25,19 @@
 			font-size: 1.5rem;
 		}
 	}
-	.img-audibmw {
-		width: 75%;
-	}
+    .img-audibmw {
+        width: 75%;
+    }
 	.m8-sinfondo , .r8-sinfondo {
-		display: none;
-	}
+        display: none
+    }
 	.card-bmwaudi {
 		@include sizes (300px , 260px);
 	}
 	.card-text {
 		font-size: 1.25rem;
 	}
-	.foto-grid-audi {
+    .foto-grid-audi {
 		display: grid;
 		grid-template-columns: auto;
 		grid-template-rows: repeat(auto,9);
@@ -68,10 +68,5 @@
 		h3 {
 			margin-bottom: 20px;
 		}
-	}
-}
-@media screen and (max-width: 991px) {
-	.nav-item {
-		margin-left: 30px;
 	}
 }
