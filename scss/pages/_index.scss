@@ -16,4 +16,9 @@
 .index-footer {
 	background-color: $gris-oscuro;
 	color: $blanco;
+	padding-bottom: 20px;
+	transition: all 2s;
+}
+.index-footer:hover {
+	padding-bottom: 50px;
 }

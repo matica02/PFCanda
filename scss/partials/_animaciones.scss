@@ -28,7 +28,7 @@
     }
 }
 @keyframes rotacion-360 {
-    100% {
+    to {
         transform: rotate(360deg);
 }
-}
+} 
