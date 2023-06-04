@@ -38,14 +38,10 @@
 		font-size: 1.25rem;
 	}
     .foto-grid-audi {
-		display: grid;
 		grid-template-columns: auto;
 		grid-template-rows: repeat(auto,9);
-		gap: 20px 20px;
-		grid-auto-flow: row;
 		grid-template-areas: "rs3" "rs4" "rs5" "q2" "q3" "q5" "tt" "r8" "etron";
-		justify-content: center;
-		margin: 100px 0px 40px 0px;
+		margin: 80px 0px 40px 0px;
 		img {
 			width: 260px;
 		}
@@ -54,14 +50,10 @@
 		}
 	}
 	.foto-grid-bmw {
-		display: grid;
 		grid-template-columns: auto;
 		grid-template-rows: repeat(auto,12);
-		gap: 20px 20px;
-		grid-auto-flow: row;
 		grid-template-areas: "m2" "m3" "m4" "m5" "m140i" "m240i" "m440i" "m850i" "x2" "x3" "x5" "x6";
-		justify-content: center;
-		margin: 100px 0px 40px 0px;
+		margin: 80px 0px 40px 0px;
 		img {
 			width: 260px;
 		}

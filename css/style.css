@@ -225,77 +225,6 @@ body {
     transform: translateX(1);
   }
 }
-@media only screen and (max-width: 600px) {
-  h1 {
-    font-size: 5rem;
-    margin: 100px 50px 100px 50px;
-    text-align: left;
-  }
-  .nav-item {
-    font-size: 3.5rem;
-  }
-  main {
-    padding: 40px 0px 30px 0px;
-  }
-  .index-subtitle, .subtitle {
-    font-size: 2rem;
-    margin: 20px;
-  }
-  .subtitle-rateus {
-    font-size: 2.5rem;
-  }
-  footer h4 {
-    font-size: 3rem;
-  }
-  footer p {
-    font-size: 1.5rem;
-  }
-  .img-audibmw {
-    width: 75%;
-  }
-  .m8-sinfondo, .r8-sinfondo {
-    display: none;
-  }
-  .card-bmwaudi {
-    height: 300px;
-    width: 260px;
-  }
-  .card-text {
-    font-size: 1.25rem;
-  }
-  .foto-grid-audi {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: repeat(auto, 9);
-    gap: 20px 20px;
-    grid-auto-flow: row;
-    grid-template-areas: "rs3" "rs4" "rs5" "q2" "q3" "q5" "tt" "r8" "etron";
-    justify-content: center;
-    margin: 100px 0px 40px 0px;
-  }
-  .foto-grid-audi img {
-    width: 260px;
-  }
-  .foto-grid-audi h3 {
-    margin-bottom: 20px;
-  }
-  .foto-grid-bmw {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: repeat(auto, 12);
-    gap: 20px 20px;
-    grid-auto-flow: row;
-    grid-template-areas: "m2" "m3" "m4" "m5" "m140i" "m240i" "m440i" "m850i" "x2" "x3" "x5" "x6";
-    justify-content: center;
-    margin: 100px 0px 40px 0px;
-  }
-  .foto-grid-bmw img {
-    width: 260px;
-  }
-  .foto-grid-bmw h3 {
-    margin-bottom: 20px;
-  }
-}
 .bmw-audi-ico {
   width: 9rem;
   margin: 15px 0px 0px 40px;
@@ -558,6 +487,70 @@ textarea {
 
 .cards-vw:hover {
   width: 292px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 5rem;
+    margin: 100px 50px 100px 50px;
+    text-align: left;
+  }
+  .nav-item {
+    font-size: 3.5rem;
+  }
+  main {
+    padding: 40px 0px 30px 0px;
+  }
+  .index-subtitle, .subtitle {
+    font-size: 2rem;
+    margin: 20px;
+  }
+  .subtitle-rateus {
+    font-size: 2.5rem;
+  }
+  footer h4 {
+    font-size: 3rem;
+  }
+  footer p {
+    font-size: 1.5rem;
+  }
+  .img-audibmw {
+    width: 75%;
+  }
+  .m8-sinfondo, .r8-sinfondo {
+    display: none;
+  }
+  .card-bmwaudi {
+    height: 300px;
+    width: 260px;
+  }
+  .card-text {
+    font-size: 1.25rem;
+  }
+  .foto-grid-audi {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, 9);
+    grid-template-areas: "rs3" "rs4" "rs5" "q2" "q3" "q5" "tt" "r8" "etron";
+    margin: 80px 0px 40px 0px;
+  }
+  .foto-grid-audi img {
+    width: 260px;
+  }
+  .foto-grid-audi h3 {
+    margin-bottom: 20px;
+  }
+  .foto-grid-bmw {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, 12);
+    grid-template-areas: "m2" "m3" "m4" "m5" "m140i" "m240i" "m440i" "m850i" "x2" "x3" "x5" "x6";
+    margin: 80px 0px 40px 0px;
+  }
+  .foto-grid-bmw img {
+    width: 260px;
+  }
+  .foto-grid-bmw h3 {
+    margin-bottom: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
