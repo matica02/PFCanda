@@ -77,7 +77,7 @@ footer {
   font-family: "Quicksand", sans-serif;
   padding: 70px 50px 20px 50px;
 }
-footer h4 {
+footer h3 {
   font-size: 6rem;
   margin-bottom: 20px;
 }
@@ -407,7 +407,7 @@ body {
 .subtitle-rateus {
   font-family: "Quicksand", sans-serif;
   font-size: 4rem;
-  margin: 20px 30px 20px 60px;
+  margin: 0px 30px 20px 60px;
   color: white;
 }
 
